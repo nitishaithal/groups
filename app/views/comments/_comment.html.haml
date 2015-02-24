@@ -1,5 +1,6 @@
 .comment
+	%br
+	%br
 	%p= comment.comment
-	by
+	by -
 	= comment.user.email
-	%p= link_to "Delete the Reply", [comment.post, comment], method: :delete, data: { confirm: "are you sure to delete?"}
